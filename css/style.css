@@ -1,0 +1,62 @@
+
+
+header {
+  height: 200px;
+  width: 100%;
+  background: yellow;
+  margin-bottom: 10px;
+}
+
+main {
+  width: 100%;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main aside.right {
+  background: pink;
+  width: 20%;
+  height: 190px;
+  float: left;
+}
+
+main aside.bottom {
+  background: pink;
+  width: 20%;
+  height: 190px;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
+
+
+section {
+  background: purple;
+  width: 56%;
+  height: 400px;
+  float: left;
+  margin: 0 2%;
+}
+
+main aside.left {
+  background: pink;
+  width: 20%;
+  height: 300px;
+  float: left;
+
+}
+
+
+footer {
+  height: 100px;
+  width: 100%;
+  background: lightblue;
+
+}
